@@ -48,6 +48,7 @@ def get_largest_prime_below(n):
 
 def test_get_largest_prime_below():
     assert get_largest_prime_below(30) == 29
+    assert get_largest_prime_below(8) == 7
 
 
 def get_perfect_squares(a: int, b: int):
